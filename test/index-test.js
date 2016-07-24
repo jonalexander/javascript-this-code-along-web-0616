@@ -1,8 +1,8 @@
 const expect = require('expect')
-
 const fs = require('fs')
 const jsdom = require('mocha-jsdom')
 const path = require('path')
+
 
 
 describe('index', () => {
@@ -12,7 +12,7 @@ describe('index', () => {
   })
   
 
-  it('runs', () => {
-    expect(true).to.be.true
-  })
+  // it('runs', () => {
+  //   expect(true).to.be.ok
+  // })
 })
